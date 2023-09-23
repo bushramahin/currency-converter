@@ -1,9 +1,12 @@
 {
-  "name": "currency-converter",
+  "name": "b-currency-converter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin":{
+    "b-currency-converter" : "dist/currency_converetr.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

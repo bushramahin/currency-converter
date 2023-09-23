@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import { usd,eur,yen,gbp,aud,cad,swiss,cnh,hkd,nzd,mxn,krw,ind } from "./formulas.js";
 import banner from 'node-banner';
